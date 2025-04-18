@@ -1,0 +1,36 @@
+{
+  "name": "alakazam-next",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/irvingdinh/alakazam-next.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/irvingdinh/alakazam-next/issues"
+  },
+  "homepage": "https://github.com/irvingdinh/alakazam-next#readme",
+  "description": "",
+  "dependencies": {
+    "next": "^15.3.1",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "@types/react": "19.1.2",
+    "eslint": "^9",
+    "eslint-config-next": "15.3.1",
+    "eslint-plugin-simple-import-sort": "^12.1.1",
+    "prettier": "3.5.3",
+    "typescript": "5.8.3"
+  }
+}
