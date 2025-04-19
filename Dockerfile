@@ -17,6 +17,8 @@ WORKDIR /app
 COPY --from=deps /app/node_modules ./node_modules
 COPY . .
 
+ENV NEXT_PUBLIC_API_URL "https://api.edita.app"
+
 RUN npm run build
 
 FROM base AS runner
