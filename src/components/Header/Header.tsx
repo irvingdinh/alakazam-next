@@ -18,7 +18,7 @@ export const Header = () => {
               <Heading>Edita</Heading>
             </Link>
 
-            <Badge>BETA</Badge>
+            <Badge>PREVIEW</Badge>
           </Group>
         </Stack>
       </Container>

@@ -18,7 +18,7 @@ export default function Page() {
   return (
     <Fragment>
       <Head>
-        <title>Edita - AI Writing Assistant</title>
+        <title>Edita: AI Writing Assistant</title>
       </Head>
 
       <Stack gap="4" minHeight="100vh">
